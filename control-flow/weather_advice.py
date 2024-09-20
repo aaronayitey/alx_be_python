@@ -3,7 +3,7 @@
 
 # Prompt user for weather conditions
 
-weather_condtion = input("What's the weather like today?\n(sunny/rainy/cold): ")
+weather_condtion = input("What's the weather like today? (sunny/rainy/cold): ")
 
 # Provide clothing recommendations based on weather conditions
 

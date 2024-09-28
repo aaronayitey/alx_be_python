@@ -25,11 +25,11 @@ def main():
 
         if choice == '1':
             # Prompt for and add an item
-            item = input("Enter an item to add: ")
+            item = input("Enter item name: ")
             shopping_list.append(item)
         elif choice == '2':
             # Prompt for and remove an item
-            item = input("Enter an item to remove: ")
+            item = input("Enter item name: ")
             if item in shopping_list:
                 shopping_list.remove(item)
             else:
